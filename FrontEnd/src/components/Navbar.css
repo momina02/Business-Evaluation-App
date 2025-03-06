@@ -1,0 +1,40 @@
+/* Custom Navbar Styling */
+.custom-navbar {
+    background-color: #222 !important; /* Dark background */
+    padding: 10px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Navbar Brand */
+  .custom-navbar-brand {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f8f9fa !important;
+    text-decoration: none;
+  }
+  
+  .custom-navbar-brand:hover {
+    color: #ddd !important;
+  }
+  
+  /* Navbar Links */
+  .custom-navbar-links {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .custom-nav-link {
+    font-size: 18px;
+    color: #f8f9fa !important;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .custom-nav-link:hover {
+    color: #ddd !important;
+  }
+  
+  
+
+  

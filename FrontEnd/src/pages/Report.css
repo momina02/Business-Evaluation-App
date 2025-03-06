@@ -1,0 +1,54 @@
+/* Report.css */
+
+.report-container {
+    max-width: 90%; /* Set a max width for the report */
+    margin: 30px auto; /* Center the report */
+    padding: 20px; /* Add some padding */
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    overflow-wrap: break-word; /* Allow long words to break */
+    white-space: pre-wrap; /* Preserve whitespace but allow wrapping */
+    font-family: Arial, sans-serif; /* Set a readable font */
+    line-height: 1.6; /* Increase line height for readability */
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em; /* Larger font size for the main heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #333; /* Darker color for the heading */
+}
+
+.report-content {
+    font-size: 1em; /* Base font size for the content */
+    color: #555; /* Dark gray color for the text */
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em; /* Font size for subheadings */
+    margin-top: 20px; /* Space above subheadings */
+    margin-bottom: 10px; /* Space below subheadings */
+    color: #444; /* Darker color for subheadings */
+}
+
+h3 {
+    font-size: 1.2em; /* Font size for smaller headings */
+    margin-top: 15px; /* Space above smaller headings */
+    margin-bottom: 5px; /* Space below smaller headings */
+    color: #555; /* Darker color for smaller headings */
+}
+
+ul, ol {
+    padding-left: 20px; /* Indent lists */
+    margin-bottom: 15px; /* Space below lists */
+}
+
+li {
+    margin-bottom: 5px; /* Space between list items */
+}
+
+strong {
+    color: #000; /* Bold text color */
+}
