@@ -13,7 +13,7 @@ from io import BytesIO
 
 
 # Initialize Groq API
-client = groq.Groq(api_key="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")  # Replace with your API key
+client = groq.Groq(api_key="Your_API_Key")  # Replace with your API key
 
 def extract_text_from_pdf(pdf_file):
     if hasattr(pdf_file, 'read'):
